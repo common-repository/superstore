@@ -1,0 +1,3835 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-10-16 13:28+0600\n"
+"PO-Revision-Date: 2022-10-16 13:29+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_html;esc_html__;esc_html_e;esc_attr;"
+"esc_attr__;esc_attr_e\n"
+"X-Poedit-SearchPath-0: includes\n"
+"X-Poedit-SearchPath-1: templates\n"
+"X-Poedit-SearchPath-2: superstore.php\n"
+
+#: includes/Abstracts/AbstractRestPostsController.php:25
+#: includes/Abstracts/AbstractRestPostsController.php:250
+#: includes/Abstracts/AbstractRestPostsController.php:387
+#, php-format
+msgid "Method '%s' not implemented. Must be overridden in subclass."
+msgstr ""
+
+#: includes/Abstracts/AbstractRestPostsController.php:70
+#: includes/RESTAPI/Product.php:812
+msgid ""
+"To manipulate product variations you should use the /products/&lt;"
+"product_id&gt;/variations/&lt;id&gt; endpoint."
+msgstr ""
+
+#: includes/Abstracts/AbstractRestPostsController.php:72
+#: includes/RESTAPI/File.php:197 includes/RESTAPI/File.php:265
+#: includes/RESTAPI/File.php:289 includes/RESTAPI/Order.php:517
+#: includes/RESTAPI/Order.php:550 includes/RESTAPI/Product.php:1556
+#: includes/RESTAPI/Product.php:1580
+msgid "Invalid ID."
+msgstr ""
+
+#: includes/Abstracts/AbstractRestPostsController.php:195
+#: includes/RESTAPI/File.php:327
+#, php-format
+msgid "The %s cannot be deleted."
+msgstr ""
+
+#: includes/Abstracts/AbstractShortcode.php:23
+msgid "Shortcode property can not be empty."
+msgstr ""
+
+#: includes/Ajax.php:44
+msgid "You are not allowed to save admin settings"
+msgstr ""
+
+#: includes/Ajax.php:50 includes/Ajax.php:112 includes/Ajax.php:188
+#: includes/Ajax.php:253 includes/Ajax.php:278 includes/Ajax.php:306
+#: includes/Ajax.php:363 includes/Ajax.php:390
+msgid "Nonce is not valid"
+msgstr ""
+
+#: includes/Ajax.php:54
+msgid "`section` parameter is required."
+msgstr ""
+
+#: includes/Ajax.php:76
+msgid "Settings has been saved successfully"
+msgstr ""
+
+#: includes/Ajax.php:89 includes/Ajax.php:166
+msgid "You have no permission to do this action"
+msgstr ""
+
+#: includes/Ajax.php:106 includes/Ajax.php:300 includes/Ajax.php:357
+#: includes/Ajax.php:384
+msgid "You are not authorized to perform this action."
+msgstr ""
+
+#: includes/Ajax.php:153
+msgid "Settings has been saved successfully."
+msgstr ""
+
+#: includes/Ajax.php:182
+msgid "You are not allowed to upload file"
+msgstr ""
+
+#: includes/Ajax.php:197
+msgid "Account is not enabled"
+msgstr ""
+
+#: includes/Ajax.php:210
+msgid "Failed: Storage limit exceed."
+msgstr ""
+
+#: includes/Ajax.php:234
+msgid "Successfully uploaded"
+msgstr ""
+
+#: includes/Ajax.php:257
+msgid "Not available"
+msgstr ""
+
+#: includes/Ajax.php:259
+msgid "Available"
+msgstr ""
+
+#: includes/Ajax.php:272 includes/Shortcode/SellerAccount.php:34
+msgid "You are not a seller."
+msgstr ""
+
+#: includes/Ajax.php:312
+msgid "Current password is incorrect"
+msgstr ""
+
+#: includes/Ajax.php:316
+msgid "Choose a different password"
+msgstr ""
+
+#: includes/Ajax.php:320
+msgid "Password not set"
+msgstr ""
+
+#: includes/Ajax.php:324
+msgid "Can not change empty password"
+msgstr ""
+
+#: includes/Ajax.php:341
+msgid "Password has been changed successfully."
+msgstr ""
+
+#: includes/Ajax.php:368
+msgid "Successfully logged out."
+msgstr ""
+
+#: includes/Ajax.php:394
+msgid "No order id found"
+msgstr ""
+
+#: includes/Ajax.php:572
+msgid "Order No"
+msgstr ""
+
+#: includes/Ajax.php:573
+msgid "Order Items"
+msgstr ""
+
+#: includes/Ajax.php:574
+msgid "Shipping method"
+msgstr ""
+
+#: includes/Ajax.php:575
+msgid "Shipping Cost"
+msgstr ""
+
+#: includes/Ajax.php:576 includes/Localize/SellerDashboard/Order.php:346
+msgid "Payment method"
+msgstr ""
+
+#: includes/Ajax.php:577
+msgid "Order Total"
+msgstr ""
+
+#: includes/Ajax.php:578
+msgid "Earnings"
+msgstr ""
+
+#: includes/Ajax.php:579
+msgid "Order Status"
+msgstr ""
+
+#: includes/Ajax.php:580
+msgid "Order Date"
+msgstr ""
+
+#: includes/Ajax.php:581
+msgid "Billing Company"
+msgstr ""
+
+#: includes/Ajax.php:582
+msgid "Billing First Name"
+msgstr ""
+
+#: includes/Ajax.php:583
+msgid "Billing Last Name"
+msgstr ""
+
+#: includes/Ajax.php:584
+msgid "Billing Full Name"
+msgstr ""
+
+#: includes/Ajax.php:585
+msgid "Billing Email"
+msgstr ""
+
+#: includes/Ajax.php:586
+msgid "Billing Phone"
+msgstr ""
+
+#: includes/Ajax.php:587
+msgid "Billing Address 1"
+msgstr ""
+
+#: includes/Ajax.php:588
+msgid "Billing Address 2"
+msgstr ""
+
+#: includes/Ajax.php:589
+msgid "Billing City"
+msgstr ""
+
+#: includes/Ajax.php:590
+msgid "Billing State"
+msgstr ""
+
+#: includes/Ajax.php:591
+msgid "Billing Postcode"
+msgstr ""
+
+#: includes/Ajax.php:592
+msgid "Billing Country"
+msgstr ""
+
+#: includes/Ajax.php:593
+msgid "Shipping Company"
+msgstr ""
+
+#: includes/Ajax.php:594
+msgid "Shipping First Name"
+msgstr ""
+
+#: includes/Ajax.php:595
+msgid "Shipping Last Name"
+msgstr ""
+
+#: includes/Ajax.php:596
+msgid "Shipping Full Name"
+msgstr ""
+
+#: includes/Ajax.php:597
+msgid "Shipping Address 1"
+msgstr ""
+
+#: includes/Ajax.php:598
+msgid "Shipping Address 2"
+msgstr ""
+
+#: includes/Ajax.php:599
+msgid "Shipping City"
+msgstr ""
+
+#: includes/Ajax.php:600
+msgid "Shipping State"
+msgstr ""
+
+#: includes/Ajax.php:601
+msgid "Shipping Postcode"
+msgstr ""
+
+#: includes/Ajax.php:602
+msgid "Shipping Country"
+msgstr ""
+
+#: includes/Ajax.php:603
+msgid "Customer IP"
+msgstr ""
+
+#: includes/Ajax.php:604
+msgid "Customer Note"
+msgstr ""
+
+#: includes/Ajax.php:617
+msgid "Not valid request."
+msgstr ""
+
+#: includes/Ajax.php:625
+msgid "Please provide your name."
+msgstr ""
+
+#: includes/Ajax.php:632
+msgid "Contact seller not found!"
+msgstr ""
+
+#: includes/Ajax.php:638
+msgid "Message sent successfully!"
+msgstr ""
+
+#: includes/Ajax.php:650
+msgid "You have no permission to dismiss the notice"
+msgstr ""
+
+#: includes/Ajax.php:654
+msgid "Nonce is not valid to dismiss the notice"
+msgstr ""
+
+#: includes/Commission.php:95
+#, php-format
+msgid "Payment gateway processing fee %s"
+msgstr ""
+
+#: includes/Commission.php:200 includes/Localize/SellerDashboard/Order.php:279
+msgid "Order not found"
+msgstr ""
+
+#: includes/Commission.php:255
+#: includes/Localize/SellerDashboard/Product.php:267
+msgid "Product not found"
+msgstr ""
+
+#: includes/DataStore/Controller.php:71 includes/DataStore/Controller.php:77
+#: includes/DataStore/Controller.php:84
+msgid "Invalid data store."
+msgstr ""
+
+#: includes/DataStore/Payment.php:24 includes/DataStore/Payment.php:164
+msgid "No user found"
+msgstr ""
+
+#: includes/DataStore/Payment.php:32 includes/DataStore/Payment.php:194
+#: includes/RESTAPI/File.php:239 includes/RESTAPI/File.php:297
+#: includes/RESTAPI/Order.php:570 includes/RESTAPI/Product.php:1516
+#: includes/RESTAPI/Product.php:1595
+msgid "Account is not enabled."
+msgstr ""
+
+#: includes/DataStore/Payment.php:52
+#, php-format
+msgid "You have to wait %s days for next request"
+msgstr ""
+
+#: includes/DataStore/Payment.php:56 includes/DataStore/Payment.php:168
+msgid "Amount is empty"
+msgstr ""
+
+#: includes/DataStore/Payment.php:60 includes/DataStore/Payment.php:172
+msgid "Method is required"
+msgstr ""
+
+#: includes/DataStore/Payment.php:64 includes/DataStore/Payment.php:176
+msgid "Status is required"
+msgstr ""
+
+#: includes/DataStore/Payment.php:78 includes/DataStore/Payment.php:180
+msgid "User has no permission."
+msgstr ""
+
+#: includes/DataStore/Payment.php:83
+msgid "A request already sent."
+msgstr ""
+
+#: includes/DataStore/Payment.php:88
+msgid "Don't have enough balance."
+msgstr ""
+
+#: includes/DataStore/Payment.php:94
+#, php-format
+msgid "Minimum withdraw amount is %s."
+msgstr ""
+
+#: includes/DataStore/Payment.php:100
+#, php-format
+msgid "Maximum withdraw amount is %s."
+msgstr ""
+
+#: includes/DataStore/Payment.php:104
+msgid "Don't found any active payment methods"
+msgstr ""
+
+#: includes/DataStore/Payment.php:117
+msgid "This method is not currently available"
+msgstr ""
+
+#: includes/DataStore/Payment.php:123 includes/DataStore/Payment.php:205
+msgid "Status must be request, schedule or instant."
+msgstr ""
+
+#: includes/DataStore/Payment.php:129 includes/DataStore/Payment.php:211
+msgid "Status must be pending, approved or cancel."
+msgstr ""
+
+#: includes/DataStore/Payment.php:133 includes/DataStore/Payment.php:215
+msgid "User has no permission to send approved status request."
+msgstr ""
+
+#: includes/DataStore/Payment.php:158 includes/DataStore/Payment.php:309
+#: includes/DataStore/Payment.php:433
+#: includes/DataStore/PaymentStatement.php:76
+#: includes/DataStore/PaymentStatement.php:116
+#: includes/DataStore/PaymentStatement.php:162
+msgid "ID does not exist"
+msgstr ""
+
+#: includes/DataStore/Payment.php:185
+msgid "You have no permission to edit other request."
+msgstr ""
+
+#: includes/DataStore/Payment.php:199
+msgid "Don't found any active payment methods."
+msgstr ""
+
+#: includes/DataStore/Payment.php:219
+msgid "User has no permission to change status pending."
+msgstr ""
+
+#: includes/DataStore/Payment.php:224
+msgid "Can not cancel a non pending request"
+msgstr ""
+
+#: includes/DataStore/Payment.php:282
+msgid "Error making payment request"
+msgstr ""
+
+#: includes/DataStore/Payment.php:444
+msgid "Error deleting payment"
+msgstr ""
+
+#: includes/DataStore/PaymentStatement.php:49
+msgid "Error making payment statement"
+msgstr ""
+
+#: includes/DataStore/PaymentStatement.php:173
+msgid "Error deleting payment statement"
+msgstr ""
+
+#: includes/DataStore/Seller.php:27
+msgid "Registration is not enabled"
+msgstr ""
+
+#: includes/DataStore/Seller.php:32
+msgid "Email address is required"
+msgstr ""
+
+#: includes/DataStore/Seller.php:36
+msgid "Please provide a valid email address"
+msgstr ""
+
+#: includes/DataStore/Seller.php:40
+msgid ""
+"An account is already registered with your email address. Please choose "
+"another."
+msgstr ""
+
+#: includes/DataStore/Seller.php:44
+msgid "Enabled must be yes or no"
+msgstr ""
+
+#: includes/DataStore/Seller.php:48
+msgid "Featured must be yes or no"
+msgstr ""
+
+#: includes/DataStore/Seller.php:52
+msgid "Store time enabled must be yes or no"
+msgstr ""
+
+#: includes/DataStore/Seller.php:56
+msgid "Store time open sunday must be yes or no"
+msgstr ""
+
+#: includes/DataStore/Seller.php:60
+msgid "Store time open monday must be yes or no"
+msgstr ""
+
+#: includes/DataStore/Seller.php:64
+msgid "Store time open tuesday must be yes or no"
+msgstr ""
+
+#: includes/DataStore/Seller.php:68
+msgid "Store time open wednesday must be yes or no"
+msgstr ""
+
+#: includes/DataStore/Seller.php:72
+msgid "Store time open thursday must be yes or no"
+msgstr ""
+
+#: includes/DataStore/Seller.php:76
+msgid "Store time open friday must be yes or no"
+msgstr ""
+
+#: includes/DataStore/Seller.php:80
+msgid "Store time open saturday must be yes or no"
+msgstr ""
+
+#: includes/DataStore/Seller.php:84
+msgid "Requires product review must be yes or no"
+msgstr ""
+
+#: includes/DataStore/Seller.php:88
+msgid "Tnc enabled must be yes or no"
+msgstr ""
+
+#: includes/DataStore/Seller.php:92
+msgid "Admin commission type must be percentage or flat"
+msgstr ""
+
+#: includes/DataStore/Seller.php:97
+#, php-format
+msgid "#%s is an invalid banner ID."
+msgstr ""
+
+#: includes/DataStore/Seller.php:102
+#, php-format
+msgid "#%s is an invalid profile picture ID."
+msgstr ""
+
+#: includes/DataStore/Seller.php:118
+msgid "Please enter a valid account username."
+msgstr ""
+
+#: includes/DataStore/Seller.php:122
+msgid ""
+"An account is already registered with that username. Please choose another."
+msgstr ""
+
+#: includes/DataStore/Seller.php:130
+msgid "Store url already taken. Please choose another."
+msgstr ""
+
+#: includes/DataStore/Seller.php:145
+msgid "Please enter an account password."
+msgstr ""
+
+#: includes/DataStore/Seller.php:163
+msgid "An valid id is required to update seller"
+msgstr ""
+
+#: includes/DataStore/Seller.php:167
+msgid "You can not edit other sellers"
+msgstr ""
+
+#: includes/DataStore/Seller.php:171
+msgid "You are not a seller"
+msgstr ""
+
+#: includes/DataStore/Seller.php:176
+msgid "Please provide a valid email address."
+msgstr ""
+
+#: includes/DataStore/Seller.php:180
+msgid ""
+"An account is already registered with your email address. Please choose "
+"another one."
+msgstr ""
+
+#: includes/DataStore/Seller.php:188
+msgid ""
+"Store url already registered with this store url. Please choose another one."
+msgstr ""
+
+#: includes/DataStore/Seller.php:203
+msgid "This user does not exist"
+msgstr ""
+
+#: includes/DataStore/Seller.php:235
+msgid "Registration failed to insert user"
+msgstr ""
+
+#: includes/DataStore/Seller.php:256
+msgid "Registration failed to update user"
+msgstr ""
+
+#: includes/DataStore/Seller.php:282
+msgid "Invalid seller."
+msgstr ""
+
+#: includes/DataStore/Seller.php:381
+msgid "An valid id is required to delete seller"
+msgstr ""
+
+#: includes/Email/ContactSeller.php:17
+msgid "Superstore contact seller"
+msgstr ""
+
+#: includes/Email/ContactSeller.php:18
+msgid "Sends customer contact message to seller from store contact form."
+msgstr ""
+
+#: includes/Email/ContactSeller.php:36
+msgid "Message from customer"
+msgstr ""
+
+#: includes/Email/ContactSeller.php:45
+msgid "{customer_name} - Sent a message"
+msgstr ""
+
+#: includes/Email/ContactSeller.php:100 includes/Email/NewPayment.php:100
+#: includes/Email/NewProduct.php:100 includes/Email/NewSeller.php:100
+#: includes/Email/ProductPublished.php:100 includes/Email/UpdatePayment.php:101
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/Email/ContactSeller.php:102 includes/Email/NewPayment.php:102
+#: includes/Email/NewProduct.php:102 includes/Email/NewSeller.php:102
+#: includes/Email/ProductPublished.php:102 includes/Email/UpdatePayment.php:103
+msgid "Enable this email notification"
+msgstr ""
+
+#: includes/Email/ContactSeller.php:106 includes/Email/NewPayment.php:106
+#: includes/Email/NewProduct.php:106 includes/Email/NewSeller.php:106
+#: includes/Email/ProductPublished.php:106
+msgid "Recipient(s)"
+msgstr ""
+
+#: includes/Email/ContactSeller.php:109 includes/Email/NewPayment.php:109
+#: includes/Email/NewProduct.php:109 includes/Email/NewSeller.php:109
+#: includes/Email/ProductPublished.php:109
+#, php-format
+msgid "Enter recipients (comma separated) for this email. Defaults to %s."
+msgstr ""
+
+#: includes/Email/ContactSeller.php:115 includes/Email/NewPayment.php:115
+#: includes/Email/NewProduct.php:115 includes/Email/NewSeller.php:115
+#: includes/Email/ProductPublished.php:115 includes/Email/UpdatePayment.php:107
+msgid "Subject"
+msgstr ""
+
+#: includes/Email/ContactSeller.php:119 includes/Email/ContactSeller.php:128
+#: includes/Email/NewPayment.php:119 includes/Email/NewPayment.php:128
+#: includes/Email/NewProduct.php:119 includes/Email/NewProduct.php:128
+#: includes/Email/NewSeller.php:119 includes/Email/NewSeller.php:128
+#: includes/Email/ProductPublished.php:119
+#: includes/Email/ProductPublished.php:128 includes/Email/UpdatePayment.php:111
+#: includes/Email/UpdatePayment.php:120
+#, php-format
+msgid "Available placeholders: %s"
+msgstr ""
+
+#: includes/Email/ContactSeller.php:124 includes/Email/NewPayment.php:124
+#: includes/Email/NewProduct.php:124 includes/Email/NewSeller.php:124
+#: includes/Email/ProductPublished.php:124 includes/Email/UpdatePayment.php:116
+msgid "Email heading"
+msgstr ""
+
+#: includes/Email/ContactSeller.php:133 includes/Email/NewPayment.php:133
+#: includes/Email/NewProduct.php:133 includes/Email/NewSeller.php:133
+#: includes/Email/ProductPublished.php:133 includes/Email/UpdatePayment.php:125
+msgid "Email type"
+msgstr ""
+
+#: includes/Email/ContactSeller.php:135 includes/Email/NewPayment.php:135
+#: includes/Email/NewProduct.php:135 includes/Email/NewSeller.php:135
+#: includes/Email/ProductPublished.php:135 includes/Email/UpdatePayment.php:127
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: includes/Email/NewPayment.php:17
+msgid "Superstore new payment withdraw"
+msgstr ""
+
+#: includes/Email/NewPayment.php:18
+msgid "Notify admin when new payments are created."
+msgstr ""
+
+#: includes/Email/NewPayment.php:36
+msgid "New withdraw request"
+msgstr ""
+
+#: includes/Email/NewPayment.php:45
+msgid "A new withdraw request is created by Seller: {store_name}"
+msgstr ""
+
+#: includes/Email/NewPayment.php:164
+#: includes/Localize/AdminDashboard/Controller.php:98
+msgid "(no name)"
+msgstr ""
+
+#: includes/Email/NewProduct.php:17
+msgid "Superstore new product added"
+msgstr ""
+
+#: includes/Email/NewProduct.php:18
+msgid "Notify admin when new products are added."
+msgstr ""
+
+#: includes/Email/NewProduct.php:36
+msgid "New product added"
+msgstr ""
+
+#: includes/Email/NewProduct.php:45
+msgid "A new product is added by Seller: {store_name}"
+msgstr ""
+
+#: includes/Email/NewSeller.php:17
+msgid "Superstore new seller account"
+msgstr ""
+
+#: includes/Email/NewSeller.php:18
+msgid "Notify admin when new sellers are registered."
+msgstr ""
+
+#: includes/Email/NewSeller.php:36
+msgid "New seller registration"
+msgstr ""
+
+#: includes/Email/NewSeller.php:45
+msgid "New seller registered"
+msgstr ""
+
+#: includes/Email/ProductPublished.php:17
+msgid "Superstore product status changed to publish"
+msgstr ""
+
+#: includes/Email/ProductPublished.php:18
+msgid "Notify seller when their products are published by admin."
+msgstr ""
+
+#: includes/Email/ProductPublished.php:36
+msgid "Product published"
+msgstr ""
+
+#: includes/Email/ProductPublished.php:45
+msgid "Your product {name} is now published"
+msgstr ""
+
+#: includes/Email/UpdatePayment.php:18
+msgid "Superstore update payment witdraw status."
+msgstr ""
+
+#: includes/Email/UpdatePayment.php:19
+msgid "Notify seller when their payment witdraw is approved or cancelled."
+msgstr ""
+
+#: includes/Email/UpdatePayment.php:37
+msgid "Update withdraw request status"
+msgstr ""
+
+#: includes/Email/UpdatePayment.php:46
+msgid "Withdraw request is {status}"
+msgstr ""
+
+#: includes/Hooks/Core.php:128
+msgid "Superstore options"
+msgstr ""
+
+#: includes/Hooks/Core.php:131 includes/Localize/AdminDashboard/Seller.php:397
+#: includes/Localize/AdminDashboard/Seller.php:846
+#: includes/Localize/SellerDashboard/Settings.php:153
+#: includes/Localize/SellerDashboard/SetupWizard.php:62
+#: includes/Localize/SellerLogin.php:28
+msgid "Store name"
+msgstr ""
+
+#: includes/Hooks/Core.php:137
+msgid "Store url"
+msgstr ""
+
+#: includes/Hooks/Core.php:143 includes/Localize/AdminDashboard/Seller.php:418
+#: includes/Localize/AdminDashboard/Seller.php:587
+#: includes/Localize/AdminDashboard/Settings.php:528
+#: includes/Localize/SellerDashboard/Order.php:404
+#: includes/Localize/SellerDashboard/Settings.php:174
+#: includes/Localize/SellerDashboard/Settings.php:497
+msgid "Phone"
+msgstr ""
+
+#: includes/Hooks/Order.php:76
+msgid "Coupon must be restricted with a seller product."
+msgstr ""
+
+#: includes/Hooks/Order.php:129
+#, php-format
+msgid "Unable to restore stock for item %s."
+msgstr ""
+
+#: includes/Hooks/Order.php:157 includes/Hooks/Order.php:174
+msgid "Stock level reduced:"
+msgstr ""
+
+#: includes/Hooks/Order.php:272
+msgid "&nbsp;Sub Order of"
+msgstr ""
+
+#: includes/Hooks/Order.php:282
+msgid "Show Sub Orders"
+msgstr ""
+
+#: includes/Hooks/Order.php:282
+msgid "Hide Sub Orders"
+msgstr ""
+
+#: includes/Hooks/Order.php:293
+msgid "multiple"
+msgstr ""
+
+#: includes/Hooks/Order.php:324 includes/Hooks/Order.php:330
+#: includes/Hooks/Order.php:840 includes/Hooks/Product.php:37
+#: includes/Hooks/Product.php:52 includes/Hooks/Product.php:102
+#: includes/Hooks/Product.php:229 includes/Hooks/Product.php:298
+#: includes/Installer.php:141 includes/Localize/AdminDashboard/Home.php:47
+#: includes/Localize/AdminDashboard/Payment.php:199
+#: includes/Localize/AdminDashboard/Seller.php:254
+#: includes/Localize/AdminDashboard/Settings.php:96
+#: includes/Localize/AdminDashboard/Settings.php:245
+#: includes/Localize/AdminDashboard/Settings.php:261 includes/Menus.php:39
+#: includes/Menus.php:98
+msgid "Seller"
+msgstr ""
+
+#: includes/Hooks/Order.php:325 includes/Localize/AdminDashboard/Seller.php:326
+msgid "Actions"
+msgstr ""
+
+#: includes/Hooks/Order.php:326 includes/Hooks/Order.php:331
+msgid "Sub Order"
+msgstr ""
+
+#: includes/Hooks/Order.php:527
+msgid "Complete parent order when all child orders are completed."
+msgstr ""
+
+#: includes/Hooks/Order.php:683
+msgid "Toggle Sub orders"
+msgstr ""
+
+#: includes/Hooks/Product.php:109
+msgid "— No change —"
+msgstr ""
+
+#: includes/Hooks/Product.php:242 templates/global/product-tab.php:10
+msgid "Seller Info"
+msgstr ""
+
+#: includes/Hooks/WCGeneral.php:61 includes/Hooks/WCGeneral.php:117
+#: includes/Hooks/WCGeneral.php:124
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: includes/Hooks/WCGeneral.php:245
+msgid "Your {site_title} order receipt from {order_date}"
+msgstr ""
+
+#: includes/Hooks/WCGeneral.php:246
+msgid "Your {site_title} order from {order_date} is complete"
+msgstr ""
+
+#: includes/Installer.php:72
+msgid "Stores"
+msgstr ""
+
+#: includes/Installer.php:78
+msgid "Seller Account"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:78
+#, php-format
+msgid ""
+"Please rate<span class=\"px-1\">Superstore</span><a href=\"%1$s\" target="
+"\"_blank\" rel=\"noopener noreferrer\"> ★★★★★ </a> on <a href=\"%1$s\" class="
+"\"font-weight-bold px-1\">WordPress.org</a>"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:84
+msgid "See Quick Links"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:92
+#: includes/Localize/AdminDashboard/Controller.php:262
+#: includes/Localize/SellerDashboard/Controller.php:87
+#: includes/Localize/SellerDashboard/Controller.php:218
+msgid "Please wait..."
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:100
+#: includes/Localize/SellerDashboard/Controller.php:93
+msgid "Submit"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:101
+#: includes/Localize/SellerDashboard/Controller.php:94
+msgid ""
+"To enable submit button fill all input fields that are valid and required"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:102
+#: includes/Localize/SellerDashboard/Controller.php:95
+#: includes/Localize/Stores.php:52
+msgid "Required"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:103
+#: includes/Localize/SellerDashboard/Controller.php:96
+#: includes/Localize/Stores.php:53
+msgid "Email is not valid"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:104
+#: includes/Localize/SellerDashboard/Controller.php:97
+#: includes/Localize/SellerDashboard/Order.php:425
+msgid "Type here..."
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:107
+#: includes/Localize/SellerDashboard/Controller.php:104
+msgid "Upload"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:108
+#: includes/Localize/SellerDashboard/Controller.php:105
+#: includes/Localize/SellerDashboard/Settings.php:455
+msgid "Change"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:109
+#: includes/Localize/SellerDashboard/Controller.php:106
+msgid "Remove"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:137
+msgid "Get PRO"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:164
+#: includes/Localize/AdminDashboard/Settings.php:284
+#: includes/Localize/SellerDashboard/Controller.php:164
+msgid "Home"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:169
+#: includes/Localize/AdminDashboard/Seller.php:88
+#: includes/Localize/AdminDashboard/Settings.php:290
+msgid "Sellers"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:174
+#: includes/Localize/AdminDashboard/Seller.php:92
+#: includes/Localize/AdminDashboard/Settings.php:296
+msgid "Add new seller"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:179
+#: includes/Localize/AdminDashboard/Payment.php:77
+#: includes/Localize/AdminDashboard/Settings.php:302
+#: includes/Localize/SellerDashboard/Payment.php:88
+msgid "Payments"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:184
+#: includes/Localize/AdminDashboard/Settings.php:308
+#: includes/Localize/SellerDashboard/Controller.php:147
+#: includes/Localize/SellerDashboard/Controller.php:176
+#: includes/Localize/SellerDashboard/Order.php:191
+#: includes/Localize/SellerDashboard/Product.php:172 includes/Menus.php:49
+#: includes/Menus.php:118 includes/Superstore.php:211
+msgid "Settings"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:211
+msgid "Upgrade to Superstore PRO"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:216
+msgid "Support & Docs"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:221
+msgid "Join Us on Facebook"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:226
+msgid "Contact with Team"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:244 includes/Menus.php:32
+#: includes/Menus.php:79 templates/upgrade-notice.php:7
+msgid "Superstore"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:259
+#: includes/Localize/SellerDashboard/Controller.php:215
+msgid "No items are selected. Please select any item first."
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:260
+#: includes/Localize/SellerDashboard/Controller.php:216
+msgid "Bulk actions"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:261
+#: includes/Localize/SellerDashboard/Controller.php:217
+msgid "Type to search..."
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:263
+#: includes/Localize/SellerDashboard/Controller.php:219
+msgid "No items found"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:264
+#: includes/Localize/SellerDashboard/Controller.php:220
+msgid "No results found"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:265
+#: includes/Localize/SellerDashboard/Controller.php:221
+msgid "Rows per page"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:266
+#: includes/Localize/AdminDashboard/Payment.php:114
+#: includes/Localize/AdminDashboard/Seller.php:144
+#: includes/Localize/SellerDashboard/Controller.php:222
+#: includes/Localize/SellerDashboard/Media.php:123
+#: includes/Localize/SellerDashboard/Order.php:139
+#: includes/Localize/SellerDashboard/Payment.php:145
+#: includes/Localize/SellerDashboard/Product.php:145
+msgid "All"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:279
+#: includes/Localize/SellerDashboard/Controller.php:259
+msgid "Deleting permanently. Are you sure?"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:280
+#: includes/Localize/SellerDashboard/Controller.php:260
+msgid "Successfully deleted"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Controller.php:281
+#: includes/Localize/SellerDashboard/Controller.php:261
+msgid "Successfully saved"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/GetPro.php:43
+msgid "Superstore PRO is Upcoming!!!"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/GetPro.php:44
+msgid ""
+"Notify me on launch date and get <span class=\"font-weight-bold\">First "
+"Launch</span> exclusive offers!!!"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/GetPro.php:45
+msgid "Enter your email"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/GetPro.php:46
+msgid "Notify Me"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/GetPro.php:62
+msgid "TOP 16 PRO FEATURES"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/GetPro.php:64
+#: templates/upgrade-notice.php:18
+msgid "See more features"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/GetPro.php:225
+msgid "FREE VS PRO COMPARISON"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/GetPro.php:227
+msgid "See more"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/GetPro.php:231
+msgid "FEATURES"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/GetPro.php:232
+msgid "FREE"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/GetPro.php:233
+msgid "PRO"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Home.php:42
+msgid "Your marketplace at a glance"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Home.php:45
+msgid "Top 10 sellers by admin earnings"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Home.php:48
+msgid "Total admin earnings"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Home.php:49
+msgid "Total sales"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Home.php:50
+#: includes/Localize/SellerDashboard/Home.php:49
+msgid "Avarage ratings"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Payment.php:119
+#: includes/Localize/AdminDashboard/Payment.php:181
+#: includes/Localize/AdminDashboard/Settings.php:618
+#: includes/Localize/SellerDashboard/Order.php:159
+#: includes/Localize/SellerDashboard/Payment.php:150
+msgid "Pending"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Payment.php:124
+#: includes/Localize/SellerDashboard/Payment.php:155
+msgid "Approved"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Payment.php:129
+#: includes/Localize/AdminDashboard/Settings.php:630
+#: includes/Localize/SellerDashboard/Order.php:169
+#: includes/Localize/SellerDashboard/Payment.php:160
+msgid "Cancelled"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Payment.php:146
+#: includes/Localize/SellerDashboard/Payment.php:126
+#: includes/Localize/SellerDashboard/Payment.php:192
+msgid "Payment settings"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Payment.php:162
+msgid "Approve"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Payment.php:168
+#: includes/Localize/SellerDashboard/Payment.php:208
+#: includes/Localize/SellerDashboard/Settings.php:454
+msgid "Cancel"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Payment.php:175
+#: includes/Localize/AdminDashboard/Seller.php:237
+#: includes/Localize/SellerDashboard/Media.php:171
+#: includes/Localize/SellerDashboard/Product.php:188
+msgid "Delete"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Payment.php:206
+#: includes/Localize/SellerDashboard/Payment.php:281
+msgid "Amount"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Payment.php:212
+#: includes/Localize/SellerDashboard/Payment.php:287
+msgid "Method"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Payment.php:217
+msgid "Note"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Payment.php:222
+msgid "Requested Date"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Payment.php:232
+#: includes/Localize/SellerDashboard/Order.php:314
+#: includes/Localize/SellerDashboard/Product.php:447
+#: templates/global/sub-orders.php:30
+msgid "Status"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Payment.php:237
+#: includes/Localize/AdminDashboard/Seller.php:285
+#: includes/Localize/SellerDashboard/Order.php:380
+msgid "Action"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:127
+msgid "A seller account has been created successfully"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:149
+#: includes/Localize/AdminDashboard/Seller.php:279
+#: includes/Localize/AdminDashboard/Seller.php:511
+#: includes/Localize/AdminDashboard/Seller.php:543
+#: includes/Localize/AdminDashboard/Seller.php:656
+#: includes/Localize/AdminDashboard/Seller.php:872
+#: includes/Localize/SellerDashboard/Settings.php:244
+#: includes/Localize/SellerDashboard/Settings.php:276
+msgid "Enabled"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:154
+msgid "Not enabled"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:159
+#: includes/Localize/AdminDashboard/Seller.php:518
+#: includes/Localize/Stores.php:26 includes/Localize/Stores.php:51
+msgid "Featured"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:164
+msgid "Registered current month"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:181
+msgid "Seller settings"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:197
+msgid "Activate"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:203
+msgid "Deactivate"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:209
+msgid "Enable product review"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:216
+msgid "Disable product review"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:223
+msgid "Make featured"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:230
+msgid "Make unfeatured"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:267
+#: includes/Localize/AdminDashboard/Settings.php:546
+msgid "Contact"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:273
+#: includes/Localize/AdminDashboard/Seller.php:412
+#: includes/Localize/SellerDashboard/Settings.php:168
+msgid "Registered"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:302
+msgid "Successfully activated"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:303
+msgid "Successfully deactivated"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:304
+msgid "Successfully enabled product review"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:305
+msgid "Successfully disabled product review"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:306
+msgid "Successfully featured"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:307
+msgid "Successfully unfeatured"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:325
+msgid "Short details"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:328
+#: includes/Localize/AdminDashboard/Seller.php:477
+#: includes/Localize/AdminDashboard/Seller.php:605
+#: includes/Localize/AdminDashboard/Settings.php:552
+#: includes/Localize/SellerDashboard/Settings.php:233
+#: includes/Localize/SellerDashboard/Settings.php:515
+msgid "About"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:330
+msgid "Seller not found"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:344
+#: includes/Localize/SellerDashboard/Order.php:321
+#: includes/Localize/SellerDashboard/Product.php:88
+msgid "Products"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:348
+#: includes/Localize/SellerDashboard/Controller.php:168
+#: includes/Localize/SellerDashboard/Order.php:83
+msgid "Orders"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:352
+#: includes/Localize/SellerDashboard/Media.php:82
+msgid "Files"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:356
+#: includes/Localize/SellerDashboard/Controller.php:198
+#: includes/Localize/Stores.php:29 templates/emails/new-seller.php:29
+msgid "Visit store"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:360
+msgid "Edit more"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:383
+#: includes/Localize/AdminDashboard/Settings.php:92
+#: includes/Localize/AdminDashboard/Settings.php:593
+#: includes/Localize/AdminDashboard/Settings.php:714
+#: includes/Localize/AdminDashboard/SetupWizard.php:35
+#: includes/Localize/SellerDashboard/Order.php:310
+#: includes/Localize/SellerDashboard/Product.php:313
+#: includes/Localize/SellerDashboard/Product.php:609
+#: includes/Localize/SellerDashboard/Settings.php:139
+msgid "General"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:387
+#: includes/Localize/AdminDashboard/Seller.php:836
+#: includes/Localize/SellerDashboard/Settings.php:143
+#: includes/Localize/SellerLogin.php:26
+msgid "First name"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:392
+#: includes/Localize/AdminDashboard/Seller.php:841
+#: includes/Localize/SellerDashboard/Settings.php:148
+#: includes/Localize/SellerLogin.php:27
+msgid "Last name"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:402
+#: includes/Localize/AdminDashboard/Seller.php:851
+#: includes/Localize/SellerDashboard/Settings.php:158
+#: includes/Localize/SellerLogin.php:29
+msgid "Store url prefix"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:407
+#: includes/Localize/AdminDashboard/Seller.php:581
+#: includes/Localize/AdminDashboard/Seller.php:856
+#: includes/Localize/AdminDashboard/Settings.php:522
+#: includes/Localize/SellerDashboard/Order.php:400
+#: includes/Localize/SellerDashboard/Settings.php:163
+#: includes/Localize/SellerDashboard/Settings.php:491
+#: includes/Localize/SellerLogin.php:30
+msgid "Email"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:423
+#: includes/Localize/AdminDashboard/Seller.php:593
+#: includes/Localize/AdminDashboard/Settings.php:534
+#: includes/Localize/SellerDashboard/Settings.php:179
+#: includes/Localize/SellerDashboard/Settings.php:503
+#: includes/Localize/SellerDashboard/SetupWizard.php:68
+msgid "Address"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:429
+#: includes/Localize/SellerDashboard/Order.php:451
+#: includes/Localize/SellerDashboard/Order.php:460
+#: includes/Localize/SellerDashboard/Settings.php:185
+msgid "Country"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:434
+#: includes/Localize/SellerDashboard/Settings.php:190
+msgid "State"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:438
+#: includes/Localize/SellerDashboard/Settings.php:194
+msgid "Postcode"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:442
+#: includes/Localize/SellerDashboard/Settings.php:198
+msgid "City"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:446
+#: includes/Localize/SellerDashboard/Settings.php:202
+msgid "Street 1"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:450
+#: includes/Localize/SellerDashboard/Settings.php:206
+msgid "Street 2"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:456
+#: includes/Localize/SellerDashboard/Settings.php:212
+msgid "Geolocation"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:462
+#: includes/Localize/SellerDashboard/Settings.php:218
+msgid "Latitude"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:469
+#: includes/Localize/SellerDashboard/Settings.php:225
+msgid "Longitude"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:482
+#: includes/Localize/AdminDashboard/SetupWizard.php:51
+msgid "Admin commission"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:488
+#: includes/Localize/AdminDashboard/Settings.php:376
+#: includes/Localize/AdminDashboard/SetupWizard.php:63
+msgid "Type"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:492
+msgid "Percentage"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:496
+msgid "Flat"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:504
+#: includes/Localize/AdminDashboard/Settings.php:370
+#: includes/Localize/AdminDashboard/SetupWizard.php:57
+msgid "Rate"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:512
+msgid "Seller account status"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:524
+msgid "Requires product review"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:525
+msgid "Seller requires review before product is live"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:531
+msgid "Storage limit"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:532
+msgid "Number will be calculated in MB. For unlimited storage enter -1"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:537
+#: includes/Localize/SellerDashboard/Settings.php:238
+msgid "Terms and conditions"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:549
+#: includes/Localize/SellerDashboard/Settings.php:250
+msgid "text"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:556
+#: includes/Localize/SellerDashboard/Settings.php:257
+msgid "Store products per page"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:561
+#: includes/Localize/AdminDashboard/Settings.php:645
+msgid "Withdraw threshold day"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:567
+msgid "Payment methods"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:571
+#: includes/Localize/AdminDashboard/Seller.php:575
+#: includes/Localize/SellerDashboard/Settings.php:561
+#: includes/Localize/SellerDashboard/Settings.php:565
+msgid "Show on store"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:599
+#: includes/Localize/AdminDashboard/Settings.php:540
+#: includes/Localize/SellerDashboard/Settings.php:509
+msgid "Map"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:611
+#: includes/Localize/SellerDashboard/Settings.php:521
+msgid "Contact form"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:617
+#: includes/Localize/AdminDashboard/Settings.php:558
+#: includes/Localize/SellerDashboard/Settings.php:527
+msgid "Best selling products"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:623
+#: includes/Localize/AdminDashboard/Settings.php:564
+#: includes/Localize/SellerDashboard/Settings.php:533
+msgid "Latest products"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:629
+#: includes/Localize/AdminDashboard/Settings.php:570
+#: includes/Localize/SellerDashboard/Settings.php:539
+msgid "Top rated products"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:635
+#: includes/Localize/AdminDashboard/Settings.php:576
+#: includes/Localize/SellerDashboard/Settings.php:545
+msgid "Featured products"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:643
+#: includes/Localize/SellerDashboard/Settings.php:263
+#: includes/Localize/Stores.php:64
+msgid "Store open close schedule"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:647
+#: includes/Localize/SellerDashboard/Settings.php:267
+msgid "Store time"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:648
+#: includes/Localize/SellerDashboard/Settings.php:268
+msgid "Open time"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:649
+#: includes/Localize/SellerDashboard/Settings.php:269
+msgid "Close time"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:650
+#: includes/Localize/SellerDashboard/Settings.php:270
+msgid "OK"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:660
+#: includes/Localize/SellerDashboard/Settings.php:280
+msgid "Open notice"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:664
+#: includes/Localize/SellerDashboard/Settings.php:284
+msgid "Close notice"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:668
+#: includes/Localize/SellerDashboard/Settings.php:288
+msgid "Off day notice"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:672
+#: includes/Localize/SellerDashboard/Settings.php:292
+msgid "24 hours open notice"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:679
+#: includes/Localize/SellerDashboard/Settings.php:299
+#: includes/Localize/Stores.php:56
+msgid "Sunday"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:682
+#: includes/Localize/AdminDashboard/Seller.php:702
+#: includes/Localize/AdminDashboard/Seller.php:722
+#: includes/Localize/AdminDashboard/Seller.php:742
+#: includes/Localize/AdminDashboard/Seller.php:762
+#: includes/Localize/AdminDashboard/Seller.php:782
+#: includes/Localize/AdminDashboard/Seller.php:802
+#: includes/Localize/SellerDashboard/Settings.php:302
+#: includes/Localize/SellerDashboard/Settings.php:322
+#: includes/Localize/SellerDashboard/Settings.php:342
+#: includes/Localize/SellerDashboard/Settings.php:362
+#: includes/Localize/SellerDashboard/Settings.php:382
+#: includes/Localize/SellerDashboard/Settings.php:402
+#: includes/Localize/SellerDashboard/Settings.php:422
+msgid "Open"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:686
+#: includes/Localize/AdminDashboard/Seller.php:706
+#: includes/Localize/AdminDashboard/Seller.php:726
+#: includes/Localize/AdminDashboard/Seller.php:746
+#: includes/Localize/AdminDashboard/Seller.php:766
+#: includes/Localize/AdminDashboard/Seller.php:786
+#: includes/Localize/AdminDashboard/Seller.php:806
+#: includes/Localize/SellerDashboard/Settings.php:306
+#: includes/Localize/SellerDashboard/Settings.php:326
+#: includes/Localize/SellerDashboard/Settings.php:346
+#: includes/Localize/SellerDashboard/Settings.php:366
+#: includes/Localize/SellerDashboard/Settings.php:386
+#: includes/Localize/SellerDashboard/Settings.php:406
+#: includes/Localize/SellerDashboard/Settings.php:426
+msgid "Close"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:693
+#: includes/Localize/AdminDashboard/Seller.php:713
+#: includes/Localize/AdminDashboard/Seller.php:733
+#: includes/Localize/AdminDashboard/Seller.php:753
+#: includes/Localize/AdminDashboard/Seller.php:773
+#: includes/Localize/AdminDashboard/Seller.php:793
+#: includes/Localize/AdminDashboard/Seller.php:813
+#: includes/Localize/SellerDashboard/Settings.php:313
+#: includes/Localize/SellerDashboard/Settings.php:333
+#: includes/Localize/SellerDashboard/Settings.php:353
+#: includes/Localize/SellerDashboard/Settings.php:373
+#: includes/Localize/SellerDashboard/Settings.php:393
+#: includes/Localize/SellerDashboard/Settings.php:413
+#: includes/Localize/SellerDashboard/Settings.php:433
+#: includes/Localize/Stores.php:71
+msgid "Opening hours"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:699
+#: includes/Localize/SellerDashboard/Settings.php:319
+#: includes/Localize/Stores.php:57
+msgid "Monday"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:719
+#: includes/Localize/SellerDashboard/Settings.php:339
+#: includes/Localize/Stores.php:58
+msgid "Tuesday"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:739
+#: includes/Localize/SellerDashboard/Settings.php:359
+#: includes/Localize/Stores.php:59
+msgid "Wednesday"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:759
+#: includes/Localize/SellerDashboard/Settings.php:379
+#: includes/Localize/Stores.php:60
+msgid "Thursday"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:779
+#: includes/Localize/SellerDashboard/Settings.php:399
+#: includes/Localize/Stores.php:61
+msgid "Friday"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:799
+#: includes/Localize/SellerDashboard/Settings.php:419
+#: includes/Localize/Stores.php:62
+msgid "Saturday"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:832
+msgid "Account info"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:862
+#: includes/Localize/SellerLogin.php:31
+msgid "Username"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:867
+#: includes/Localize/SellerLogin.php:33
+msgid "Password"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:878
+msgid "Requires review before product publishing"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:885
+#: includes/Localize/SellerDashboard/Controller.php:127
+#: includes/Localize/SellerDashboard/Product.php:416
+#: includes/Localize/SellerDashboard/Product.php:656
+msgid "Media"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:889
+msgid "Banner"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:896
+#: includes/Localize/SellerDashboard/SetupWizard.php:56
+msgid "Profile picture"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:1051
+#: includes/Localize/SellerDashboard/Settings.php:606
+#: includes/Localize/SellerDashboard/SetupWizard.php:108
+msgid "Paypal email"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:1057
+#: includes/Localize/SellerDashboard/Settings.php:615
+#: includes/Localize/SellerDashboard/SetupWizard.php:115
+msgid "Skrill email"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:1063
+#: includes/Localize/SellerDashboard/Settings.php:623
+#: includes/Localize/SellerDashboard/SetupWizard.php:122
+msgid "Bank details"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:1069
+#: includes/Localize/SellerDashboard/Settings.php:629
+#: includes/Localize/SellerDashboard/SetupWizard.php:127
+msgid "Account name"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:1075
+#: includes/Localize/SellerDashboard/Settings.php:635
+#: includes/Localize/SellerDashboard/SetupWizard.php:132
+msgid "Account number"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:1081
+#: includes/Localize/SellerDashboard/Settings.php:641
+#: includes/Localize/SellerDashboard/SetupWizard.php:137
+msgid "Bank name"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:1087
+#: includes/Localize/SellerDashboard/Settings.php:647
+#: includes/Localize/SellerDashboard/SetupWizard.php:142
+msgid "Bank address"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:1093
+#: includes/Localize/SellerDashboard/Settings.php:653
+#: includes/Localize/SellerDashboard/SetupWizard.php:147
+msgid "Routing number"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:1099
+#: includes/Localize/SellerDashboard/Settings.php:659
+#: includes/Localize/SellerDashboard/SetupWizard.php:152
+msgid "IBAN"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Seller.php:1105
+#: includes/Localize/SellerDashboard/Settings.php:665
+#: includes/Localize/SellerDashboard/SetupWizard.php:157
+msgid "Swift"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:100
+#: includes/Localize/AdminDashboard/SetupWizard.php:37
+#: includes/Localize/SellerDashboard/Controller.php:142
+#: includes/Localize/SellerDashboard/Settings.php:86
+#: includes/Localize/SellerDashboard/SetupWizard.php:37 includes/Menus.php:42
+#: includes/Menus.php:107
+msgid "Payment"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:104
+msgid "Appearance"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:164
+#: includes/Localize/SellerDashboard/Settings.php:82
+#: includes/Localize/SellerDashboard/SetupWizard.php:36
+msgid "Account"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:168
+msgid "Enable registration"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:174
+msgid "Generate username"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:180
+msgid "Generate password"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:186
+msgid "Auto enable newly registered seller"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:187
+msgid ""
+"Newly registered seller will be enabled automatically. If auto enable is "
+"disabled, you can enable/disable by each seller manually"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:194
+msgid "Auto required product publishing review."
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:200
+msgid "Register url text"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:202
+msgid "Become a seller"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:206
+msgid "Hide seller register url from woocommerce register/my-account form"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:212
+msgid "Keep logged in after registration"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:213
+msgid "Seller does not requires login again after registration"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:219
+msgid "Show goto seller dashboard button on woocommerce my account"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:225
+msgid "Woocommerce goto seller dashboard button text"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:232
+msgid "Commission"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:236
+msgid "Others"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:240
+msgid "Shipping fee recipient"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:249
+#: includes/Localize/AdminDashboard/Settings.php:265
+msgid "Admin"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:256
+msgid "Tax fee recipient"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:272
+msgid "Show suborders on customer order details"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:278
+msgid "Admin dashboard navbar menus"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:316
+msgid "Show account disabled alert in seller dashboard"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:322
+msgid "Google map API key"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:323
+msgid "To get API key visit https://developers.google.com/maps"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:342
+msgid "Commission by priority"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:343
+msgid ""
+"You can set commissions in multiple places(per seller, global etc), but only "
+"the first priority will be applied if value is not null. To change priority "
+"click uncheck and then check items in ascending order. The left colored box "
+"number indicates the priority. To set per seller commission go to seller "
+"profile."
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:351
+msgid "Per Seller"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:355
+msgid "Global"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:364
+msgid "Global admin commission"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:371
+msgid ""
+"If value is totally empty, the next priority will be applied automatically "
+"for commission. 0 will count as an empty value."
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:396
+msgid "Capabilities"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:400
+msgid "Disabled seller can"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:406
+msgid "Add product"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:412
+msgid "Delete product"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:418
+msgid "Withdraw payment"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:424
+msgid "Manage order"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:430
+msgid "Add media"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:436
+msgid "Delete media"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:444
+msgid "New product status"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:445
+msgid "Woocommerce product status for seller new product adding request"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:452
+msgid "Seller can change password"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:458
+msgid "Seller requires login after change password"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:464
+msgid "Seller can access admin area"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:470
+msgid "Show seller info in single product page tab"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:476
+msgid "Show seller name in cart"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:482
+#: includes/Localize/AdminDashboard/SetupWizard.php:85
+msgid "Seller can change order status"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:488
+msgid "Seller can add multiple product categories"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:494
+msgid "Unlimited storage for all sellers"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:495
+msgid "If storage is not unlimited you can set storage limit by each seller"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:501
+msgid "Seller can hide on their store"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:597
+msgid "Exclude order status from balance"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:598
+msgid ""
+"If any order status of a seller is anyone above these, the order total "
+"amount/earnings will be excluded from the seller balance"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:606
+#: includes/Localize/SellerDashboard/Order.php:164
+msgid "Completed"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:612
+#: includes/Localize/SellerDashboard/Order.php:144
+msgid "Processing"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:624
+#: includes/Localize/SellerDashboard/Order.php:149
+msgid "On hold"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:636
+msgid "Failed"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:646
+msgid "Minimum gap requires for next withdraw request."
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:652
+msgid "Exclude cod payment"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:653
+msgid ""
+"Exclude payment from seller balance if order payment is cash on delivery(COD)"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:659
+#: includes/Localize/AdminDashboard/SetupWizard.php:124
+msgid "Minimum withdraw amount"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:660
+#: includes/Localize/AdminDashboard/Settings.php:666
+msgid "Nothing/empty/null means unlimited/no limit"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:665
+#: includes/Localize/AdminDashboard/SetupWizard.php:131
+msgid "Maximum withdraw amount"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:671
+msgid "Allowed Payment methods"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:672
+msgid "Allowed payment methods for sellers"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:680
+#: includes/Localize/AdminDashboard/SetupWizard.php:109
+msgid "Paypal"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:686
+#: includes/Localize/AdminDashboard/SetupWizard.php:113
+msgid "Skrill"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:692
+#: includes/Localize/AdminDashboard/SetupWizard.php:117
+msgid "Bank"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:718
+msgid "Tab style login and register form"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:719
+msgid "Seller register and login form will display in tab style"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:725
+msgid "Seller register url style"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:730
+msgid "Button"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:734
+msgid "Text"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:741
+msgid "Full width seller dashboard"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:747
+msgid "Store banner height"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:748
+#: includes/Localize/AdminDashboard/Settings.php:755
+msgid "In pixel"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:754
+msgid "Store banner width"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:761
+msgid "Seller dashboard primary color"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:767
+msgid "Admin dashboard primary color"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:773
+msgid "Seller register button background color"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:779
+msgid "Seller register button text color"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/Settings.php:780
+msgid "Any css or vuetify color"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/SetupWizard.php:27
+#: includes/Localize/SellerDashboard/SetupWizard.php:28
+msgid "Wishing a quick start?"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/SetupWizard.php:28
+#: includes/Localize/SellerDashboard/SetupWizard.php:29
+msgid "Let's go"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/SetupWizard.php:29
+#: includes/Localize/SellerDashboard/SetupWizard.php:30
+msgid "No, Back to superstore dashboard"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/SetupWizard.php:30
+msgid "Thank you for using superstore."
+msgstr ""
+
+#: includes/Localize/AdminDashboard/SetupWizard.php:32
+#: includes/Localize/SellerDashboard/SetupWizard.php:33
+msgid "Continue"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/SetupWizard.php:33
+#: includes/Localize/SellerDashboard/SetupWizard.php:34
+msgid "Skip step"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/SetupWizard.php:36
+msgid "Account & Seller"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/SetupWizard.php:38
+#: includes/Localize/SellerDashboard/SetupWizard.php:38
+msgid "Finish"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/SetupWizard.php:41
+#: includes/Localize/SellerDashboard/SetupWizard.php:41
+msgid "Excellent!!"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/SetupWizard.php:42
+msgid "Your marketplace is ready to launch."
+msgstr ""
+
+#: includes/Localize/AdminDashboard/SetupWizard.php:43
+#: includes/Localize/SellerDashboard/SetupWizard.php:43
+msgid "Go to"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/SetupWizard.php:44
+msgid "Superstore dashboard"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/SetupWizard.php:45
+#: includes/Localize/SellerDashboard/SetupWizard.php:45
+msgid "More settings"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/SetupWizard.php:46
+msgid "Wordpress dashboard"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/SetupWizard.php:58
+msgid "Amount you want to profit/charge from each product of a seller"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/SetupWizard.php:78
+msgid "New seller enable by default"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/SetupWizard.php:79
+msgid "Newly registered sellers will be enabled by default"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/SetupWizard.php:91
+msgid "Seller new product requires admin review"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/SetupWizard.php:92
+msgid "Admin will review newly added products before live."
+msgstr ""
+
+#: includes/Localize/AdminDashboard/SetupWizard.php:100
+msgid "Allowed payment methods"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/SetupWizard.php:125
+msgid ""
+"Minimum required amount for withdraw request . Keep blank for not limit . "
+msgstr ""
+
+#: includes/Localize/AdminDashboard/SetupWizard.php:132
+msgid "Maximum amount for withdraw request . Keep blank for not limit . "
+msgstr ""
+
+#: includes/Localize/AdminDashboard/SetupWizard.php:138
+msgid "Exclude COD payments"
+msgstr ""
+
+#: includes/Localize/AdminDashboard/SetupWizard.php:139
+msgid "Exclude customer COD paid amount from seller balance . "
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Controller.php:99
+msgid "Log out"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Controller.php:100
+msgid "Copy URL to clipboard"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Controller.php:102
+msgid "Uploaded files"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Controller.php:103
+msgid "Click to choose files"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Controller.php:107
+msgid "Drop files or click the box to upload"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Controller.php:122
+#: includes/Localize/SellerDashboard/SetupWizard.php:44 includes/Menus.php:36
+#: includes/Menus.php:89
+msgid "Dashboard"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Controller.php:132
+#: includes/Localize/SellerDashboard/Home.php:47
+msgid "Product"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Controller.php:137
+#: templates/global/sub-orders.php:28
+msgid "Order"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Controller.php:172
+msgid "Add New Product"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Controller.php:193
+msgid "Edit account"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Controller.php:248
+msgid "\"Add product\""
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Controller.php:249
+msgid "\"Delete product\""
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Controller.php:250
+msgid "\"Withdraw payment\""
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Controller.php:251
+msgid "\"Manage order\""
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Controller.php:252
+msgid "\"Add media\""
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Controller.php:253
+msgid "\"Delete media\""
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Controller.php:256
+#, php-format
+msgid "Your account is not enabled. You can not %1$s %2$s %3$s %4$s %5$s %6$s."
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Controller.php:267
+msgid "Copied"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Home.php:42
+msgid "Your store at a glance"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Home.php:45
+msgid "Top 10 products by items sold"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Home.php:48
+msgid "Items sold"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Media.php:86
+msgid "Upload new file"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Media.php:148
+#, php-format
+msgid "Storage available: %1$s of %2$s"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Media.php:156
+#, php-format
+msgid "Storage occupied: %s"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:121
+msgid "Successfully CSV exported"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:154
+msgid "Refunded"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:174
+msgid "Current month orders"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:211
+#, php-format
+msgid "Change status to %s"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:221
+msgid "Export CSV"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:328
+#: includes/Localize/SellerDashboard/Order.php:396
+#: includes/Localize/SellerDashboard/Product.php:343
+msgid "Name"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:329
+msgid "Qty"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:330
+#: templates/global/sub-orders.php:31
+msgid "Total"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:336
+msgid "total"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:341
+msgid "My earnings"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:351
+msgid "Order date"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:357
+msgid "Customer provided note"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:363
+msgid "Downloadable product permission"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:367
+msgid "Downloadable items"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:373
+msgid "Revoke access"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:374
+msgid "Choose downloadable products"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:375
+msgid "Grant new access"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:376
+#: includes/Localize/SellerDashboard/Product.php:317
+#: includes/Localize/SellerDashboard/Product.php:613
+msgid "Product name"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:377
+msgid "Total downloaded"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:378
+msgid "Downloads remaining"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:379
+msgid "Access expires"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:387
+msgid "Customer details"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:408
+msgid "IP address"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:415
+msgid "Order notes"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:421
+msgid "Delete note"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:422
+msgid "Add note"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:423
+msgid "by"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:424
+msgid "ago"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:428
+msgid "Private note"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:432
+msgid "Note to customer"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:440
+msgid "Billing & shipping details"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:448
+msgid "Billing address"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Order.php:457
+msgid "Shipping address"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Payment.php:92
+msgid "Send new request"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Payment.php:125
+msgid ""
+"You do not have any active payment methods. To send request, setup methods "
+"in payment settings. Reload page if not disappearing alert or showing method "
+"options after settings."
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Payment.php:129
+msgid "Request has been sent successfully"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Payment.php:181
+#, php-format
+msgid "Balance: %s"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Payment.php:185
+#, php-format
+msgid "Per withdraw minimum: %s"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Payment.php:189
+#, php-format
+msgid "Per withdraw maximum: %s"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Payment.php:277
+msgid "Request info"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:92
+msgid "Add new product"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:116
+#: includes/Localize/SellerDashboard/Product.php:520
+msgid "In stock"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:117
+#: includes/Localize/SellerDashboard/Product.php:524
+msgid "Out of stock"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:128
+msgid "Product added successfully"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:150
+#: includes/Localize/SellerDashboard/Product.php:452
+msgid "Published"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:155
+msgid "Pending review"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:323
+msgid "Permalink slug"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:324
+msgid "https://mysite.com/product/[product-slug]"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:329
+msgid "Download options"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:335
+msgid "Downloadable"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:339
+msgid "Downloadable files"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:340
+msgid "Add file"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:341
+msgid "Remove file"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:342
+msgid "Choose"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:344
+msgid "File URL"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:348
+msgid "-1 is for unlimited re-downloads."
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:349
+msgid "Download limit"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:353
+msgid "Download expiry days"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:354
+msgid ""
+"Enter the number of days before a download link expires, or leave -1 for "
+"unlimited days."
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:360
+msgid "Virtual"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:367
+#: includes/Localize/SellerDashboard/Product.php:619
+msgid "Regular price"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:373
+#: includes/Localize/SellerDashboard/Product.php:625
+msgid "Sale price"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:374
+#: includes/Localize/SellerDashboard/Product.php:626
+msgid "Sale price must be less than regular price"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:380
+#: includes/Localize/SellerDashboard/Product.php:632
+msgid "Categories"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:388
+#: includes/Localize/SellerDashboard/Product.php:643
+msgid "Tags"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:395
+msgid "Short description"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:400
+#: includes/Localize/SellerDashboard/Product.php:650
+msgid "Description"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:405
+msgid "Total sold"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:410
+msgid "Total views"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:422
+#: includes/Localize/SellerDashboard/Product.php:662
+msgid "Product image"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:429
+#: includes/Localize/SellerDashboard/Product.php:669
+msgid "Product gallery images"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:435
+msgid "Advanced"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:439
+msgid "Sold individually"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:440
+msgid "Limit purchases to 1 item per order"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:448
+msgid "If current status is pending review you can not change status"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:456
+msgid "Draft"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:463
+msgid "Visibility"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:467
+msgid "Catalog and search"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:471
+msgid "Catalog"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:475
+msgid "Search"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:479
+msgid "Hidden"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:486
+msgid "Purchase note"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:491
+msgid "Enable Reviews"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:502
+msgid "Inventory management"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:506
+msgid "Inventory"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:512
+msgid "SKU"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:516
+msgid "Stock status"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:531
+msgid "Enable stock management"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:538
+msgid "Stock quantity"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:543
+msgid "Allow backorders"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:547
+msgid "Do not allow"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:551
+msgid "Allow but notify customer"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:555
+msgid "Allow"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Product.php:562
+msgid "Low stock threshold"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Settings.php:108
+#: includes/Localize/SellerDashboard/Settings.php:117
+msgid "Can not get settings"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Settings.php:445
+msgid "Change password"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Settings.php:448
+msgid "Old password"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Settings.php:449
+msgid "Old password is required"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Settings.php:450
+msgid "New password"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Settings.php:451
+msgid "Minimum 6 characters"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Settings.php:452
+msgid "Confirm new password"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Settings.php:453
+msgid "Password must match"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Settings.php:587
+msgid "Methods"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/Settings.php:673
+msgid "No payment methods are available"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/SetupWizard.php:31
+msgid "Thank you for joining us."
+msgstr ""
+
+#: includes/Localize/SellerDashboard/SetupWizard.php:42
+msgid "Your store is ready to launch."
+msgstr ""
+
+#: includes/Localize/SellerDashboard/SetupWizard.php:50
+msgid "Store banner"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/SetupWizard.php:73
+msgid "Select country"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/SetupWizard.php:79
+msgid "Enter state"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/SetupWizard.php:84
+msgid "Enter town or city"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/SetupWizard.php:89
+msgid "Enter street 1"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/SetupWizard.php:94
+msgid "Enter street 2"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/SetupWizard.php:99
+msgid "Enter post code"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/SetupWizard.php:109
+msgid "Paypal account open with"
+msgstr ""
+
+#: includes/Localize/SellerDashboard/SetupWizard.php:116
+msgid "Skrill account open with"
+msgstr ""
+
+#: includes/Localize/SellerLogin.php:32
+msgid "Email or username"
+msgstr ""
+
+#: includes/Localize/SellerLogin.php:34
+msgid "Lost password"
+msgstr ""
+
+#: includes/Localize/SellerLogin.php:35 includes/Localize/SellerLogin.php:41
+msgid "Login"
+msgstr ""
+
+#: includes/Localize/SellerLogin.php:36 includes/Localize/SellerLogin.php:41
+msgid "Register"
+msgstr ""
+
+#: includes/Localize/SellerLogin.php:39
+msgid "Back to login"
+msgstr ""
+
+#: includes/Localize/SellerLogin.php:40
+msgid "Remember me"
+msgstr ""
+
+#: includes/Localize/SellerLogin.php:42
+msgid "Email is required."
+msgstr ""
+
+#: includes/Localize/SellerLogin.php:43
+msgid "Password is required."
+msgstr ""
+
+#: includes/Localize/SellerLogin.php:44
+msgid "Account successfully created."
+msgstr ""
+
+#: includes/Localize/Stores.php:25
+msgid "Loading stores..."
+msgstr ""
+
+#: includes/Localize/Stores.php:28
+msgid "Total stores showing"
+msgstr ""
+
+#: includes/Localize/Stores.php:30
+msgid "Search by store name..."
+msgstr ""
+
+#: includes/Localize/Stores.php:54
+msgid "Send"
+msgstr ""
+
+#: includes/Localize/Stores.php:65
+msgid "Store is loading..."
+msgstr ""
+
+#: includes/Localize/Stores.php:66
+msgid "Store does not found"
+msgstr ""
+
+#: includes/Localize/Stores.php:67
+msgid "Send Message"
+msgstr ""
+
+#: includes/Localize/Stores.php:68
+msgid "Your name"
+msgstr ""
+
+#: includes/Localize/Stores.php:69
+msgid "Your email"
+msgstr ""
+
+#: includes/Localize/Stores.php:70
+msgid "Message"
+msgstr ""
+
+#: includes/Localize/Stores.php:72
+msgid "Contact details"
+msgstr ""
+
+#: includes/Localize/Stores.php:73
+msgid "About store"
+msgstr ""
+
+#: includes/Localize/Stores.php:74
+msgid "Sale!"
+msgstr ""
+
+#: includes/Menus.php:53
+msgid ""
+"<strong style=\"color:#ff388b\"><span class=\"dashicons dashicons-star-filled"
+"\" style=\"font-size:13px;line-height:1.5;\"></span> Get PRO</strong>"
+msgstr ""
+
+#: includes/Menus.php:144
+msgid "Visit Seller Dashboard"
+msgstr ""
+
+#: includes/RESTAPI/File.php:63 includes/RESTAPI/File.php:82
+#: includes/RESTAPI/Order.php:78 includes/RESTAPI/Payment.php:69
+#: includes/RESTAPI/Product.php:59 includes/RESTAPI/Product.php:85
+#: includes/RESTAPI/Seller.php:59 includes/RESTAPI/Seller.php:89
+msgid "Unique identifier for the object."
+msgstr ""
+
+#: includes/RESTAPI/File.php:106 includes/RESTAPI/Product.php:109
+msgid "Whether to bypass trash and force deletion."
+msgstr ""
+
+#: includes/RESTAPI/File.php:191 includes/RESTAPI/File.php:219
+#: includes/RESTAPI/File.php:259 includes/RESTAPI/Order.php:511
+#: includes/RESTAPI/Order.php:544 includes/RESTAPI/Product.php:1472
+#: includes/RESTAPI/Product.php:1496 includes/RESTAPI/Product.php:1550
+msgid "No seller found"
+msgstr ""
+
+#: includes/RESTAPI/File.php:203 includes/RESTAPI/File.php:271
+#: includes/RESTAPI/File.php:304
+msgid "This is not your file"
+msgstr ""
+
+#: includes/RESTAPI/File.php:225 includes/RESTAPI/Product.php:1502
+#: includes/functions.php:412
+msgid "This user is not a seller"
+msgstr ""
+
+#: includes/RESTAPI/File.php:230 includes/RESTAPI/Product.php:1507
+#, php-format
+msgid "Cannot create existing %s."
+msgstr ""
+
+#: includes/RESTAPI/Order.php:261
+msgid "No permission ID found"
+msgstr ""
+
+#: includes/RESTAPI/Order.php:272
+msgid "Access revoked"
+msgstr ""
+
+#: includes/RESTAPI/Order.php:289
+msgid "No product ID found"
+msgstr ""
+
+#: includes/RESTAPI/Order.php:293
+msgid "No order ID found"
+msgstr ""
+
+#: includes/RESTAPI/Order.php:340
+msgid "New access granted"
+msgstr ""
+
+#: includes/RESTAPI/Order.php:344
+msgid "Products contain with no files are skipped"
+msgstr ""
+
+#: includes/RESTAPI/Order.php:423 includes/RESTAPI/Order.php:470
+#: includes/RESTAPI/Order.php:491 includes/RESTAPI/Order.php:528
+#: includes/RESTAPI/Order.php:561
+msgid "This is not your order"
+msgstr ""
+
+#: includes/RESTAPI/Order.php:522 includes/RESTAPI/Order.php:555
+msgid "This is a parent order"
+msgstr ""
+
+#: includes/RESTAPI/Order.php:612
+msgid "Invalid order ID"
+msgstr ""
+
+#: includes/RESTAPI/Order.php:616
+msgid "Order status is required"
+msgstr ""
+
+#: includes/RESTAPI/Order.php:620
+msgid "Order status is not valid"
+msgstr ""
+
+#: includes/RESTAPI/Order.php:626
+msgid "Invalid order"
+msgstr ""
+
+#: includes/RESTAPI/Payment.php:268 includes/RESTAPI/Payment.php:292
+msgid "No payment ID found"
+msgstr ""
+
+#: includes/RESTAPI/Payment.php:325
+msgid "No payment ID found to delete"
+msgstr ""
+
+#: includes/RESTAPI/Payment.php:347 includes/RESTAPI/Seller.php:245
+msgid "Cannot create existing resource."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:134 includes/RESTAPI/Product.php:162
+#: includes/RESTAPI/Product.php:190 includes/RESTAPI/Product.php:218
+msgid "Number of products"
+msgstr ""
+
+#: includes/RESTAPI/Product.php:139 includes/RESTAPI/Product.php:167
+#: includes/RESTAPI/Product.php:195 includes/RESTAPI/Product.php:223
+msgid "Number of page"
+msgstr ""
+
+#: includes/RESTAPI/Product.php:144 includes/RESTAPI/Product.php:172
+#: includes/RESTAPI/Product.php:200 includes/RESTAPI/Product.php:228
+msgid "Seller ID"
+msgstr ""
+
+#: includes/RESTAPI/Product.php:546 includes/RESTAPI/Product.php:547
+msgid "Placeholder"
+msgstr ""
+
+#: includes/RESTAPI/Product.php:773
+msgid " (No File)"
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1366 includes/RESTAPI/Product.php:1427
+#, php-format
+msgid "#%s is an invalid image ID."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1480 includes/RESTAPI/Product.php:1562
+#: includes/RESTAPI/Product.php:1586
+msgid "This is not your product"
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1522
+msgid "Product name is required"
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1528
+msgid "Category is required"
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1533
+msgid "Can not add more than one category"
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1817
+msgid "Unique identifier for the resource."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1823
+msgid "Product name."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1828
+msgid "Product slug."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1833
+msgid "Product URL."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1840
+msgid "The date the product was created, in the site's timezone."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1846
+msgid "The date the product was created, as GMT."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1852
+msgid "The date the product was last modified, in the site's timezone."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1858
+msgid "The date the product was last modified, as GMT."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1864
+msgid "Product type."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1871
+msgid "Product status (post status)."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1878
+msgid "Featured product."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1884
+msgid "Catalog visibility."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1891
+msgid "Product description."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1896
+msgid "Product short description."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1901
+msgid "Unique identifier."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1906
+msgid "Current product price."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1912
+msgid "Product regular price."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1917
+msgid "Product sale price."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1922
+msgid "Start date of sale price, in the site's timezone."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1927
+msgid "Start date of sale price, as GMT."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1932
+msgid "End date of sale price, in the site's timezone."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1937
+msgid "End date of sale price, as GMT."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1942
+msgid "Price formatted in HTML."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1948
+msgid "Shows if the product is on sale."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1954
+msgid "Shows if the product can be bought."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1960
+msgid "Amount of sales."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1966
+msgid "If the product is virtual."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1972
+msgid "If the product is downloadable."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1978
+msgid "List of downloadable files."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1985
+msgid "File MD5 hash."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1991
+msgid "File name."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:1996
+msgid "File URL."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2004
+msgid "Number of times downloadable files can be downloaded after purchase."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2010
+msgid "Number of days until access to downloadable files expires."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2016
+msgid "Product external URL. Only for external products."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2022
+msgid "Product external button text. Only for external products."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2027
+msgid "Tax status."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2034
+msgid "Tax class."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2039
+msgid "Stock management at product level."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2045
+msgid "Stock quantity."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2050
+msgid ""
+"Controls whether or not the product is listed as \"in stock\" or \"out of "
+"stock\" on the frontend."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2056
+msgid "Stock status."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2061
+msgid "If managing stock, this controls if backorders are allowed."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2068
+msgid "Shows if backorders are allowed."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2074
+msgid "Shows if the product is on backordered."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2080
+msgid "Allow one item to be bought in a single order."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2087
+#, php-format
+msgid "Product weight (%s)."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2092
+msgid "Product dimensions."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2098
+#, php-format
+msgid "Product length (%s)."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2104
+#, php-format
+msgid "Product width (%s)."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2110
+#, php-format
+msgid "Product height (%s)."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2117
+msgid "Shows if the product need to be shipped."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2123
+msgid "Shows whether or not the product shipping is taxable."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2129
+msgid "Shipping class slug."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2134
+msgid "Shipping class ID."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2140
+msgid "Allow reviews."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2146
+msgid "Reviews average rating."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2152
+msgid "Amount of reviews that the product have."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2158
+msgid "List of related products IDs."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2167
+msgid "List of up-sell products IDs."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2175
+msgid "List of cross-sell products IDs."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2183
+msgid "Product parent ID."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2188
+msgid "Optional note to send the customer after purchase."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2193
+msgid "List of categories."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2200
+msgid "Category ID."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2205
+msgid "Category name."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2211
+msgid "Category slug."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2220
+msgid "List of tags."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2227
+msgid "Tag ID."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2232
+msgid "Tag name."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2238
+msgid "Tag slug."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2247
+msgid "Product thumbnail image."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2252 includes/RESTAPI/Product.php:2311
+msgid "Image ID."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2257 includes/RESTAPI/Product.php:2316
+msgid "The date the image was created, in the site's timezone."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2263 includes/RESTAPI/Product.php:2322
+msgid "The date the image was created, as GMT."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2269 includes/RESTAPI/Product.php:2328
+msgid "The date the image was last modified, in the site's timezone."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2275 includes/RESTAPI/Product.php:2334
+msgid "The date the image was last modified, as GMT."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2281 includes/RESTAPI/Product.php:2340
+msgid "Image URL."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2287 includes/RESTAPI/Product.php:2346
+msgid "Image name."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2292 includes/RESTAPI/Product.php:2351
+msgid "Image alternative text."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2297 includes/RESTAPI/Product.php:2356
+msgid "Image position. 0 means that the image is featured."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2304
+msgid "List of gallery images."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2364
+msgid "List of attributes."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2371 includes/RESTAPI/Product.php:2416
+msgid "Attribute ID."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2376 includes/RESTAPI/Product.php:2421
+msgid "Attribute name."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2381
+msgid "Attribute position."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2386
+msgid ""
+"Define if the attribute is visible on the \"Additional information\" tab in "
+"the product's page."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2392
+msgid "Define if the attribute can be used as variation."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2398
+msgid "List of available term names of the attribute."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2409
+msgid "Defaults variation attributes."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2426
+msgid "Selected attribute term name."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2434
+msgid "List of variations IDs."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2443
+msgid "List of grouped products ID."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2451
+msgid "Menu order, used to custom sort products."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2456
+msgid "Meta data."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2463
+msgid "Meta ID."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2469
+msgid "Meta key."
+msgstr ""
+
+#: includes/RESTAPI/Product.php:2474
+msgid "Meta value."
+msgstr ""
+
+#: includes/RESTAPI/Seller.php:390
+msgid "User slug is required"
+msgstr ""
+
+#: includes/RESTAPI/Seller.php:396
+msgid "User with this slug is not exists"
+msgstr ""
+
+#: includes/Report.php:117
+msgid "Current month sales from marketplace"
+msgstr ""
+
+#: includes/Report.php:124
+msgid "Pending withdraw rerquests"
+msgstr ""
+
+#: includes/Report.php:131
+msgid "Pending product reviews"
+msgstr ""
+
+#: includes/Report.php:138
+msgid "Products created this month"
+msgstr ""
+
+#: includes/Report.php:145
+msgid "Total sellers"
+msgstr ""
+
+#: includes/Report.php:152
+msgid "Sellers signup this month"
+msgstr ""
+
+#: includes/Report.php:162
+msgid "Sellers are not enabled"
+msgstr ""
+
+#: includes/Report.php:166
+msgid "Storage occupied by sellers"
+msgstr ""
+
+#: includes/Report.php:173
+msgid "Commission earned"
+msgstr ""
+
+#: includes/Report.php:180
+msgid "Total paid to sellers"
+msgstr ""
+
+#: includes/Report.php:187
+msgid "Total marketplace product views"
+msgstr ""
+
+#: includes/Report.php:194
+msgid "Avarage marketplace ratings"
+msgstr ""
+
+#: includes/Shortcode/SellerAccount.php:27 includes/Shortcode/Stores.php:27
+#, php-format
+msgid ""
+"WooCommerce is missing. Install <a href=\"%s\"><strong>WooCommerce</strong></"
+"a> first"
+msgstr ""
+
+#: includes/Superstore.php:151
+#, php-format
+msgid ""
+"PHP version requires at least %1$s for <b>Superstore</b>. Current version is "
+"%2$s ."
+msgstr ""
+
+#: includes/Superstore.php:215
+msgid "Get Pro"
+msgstr ""
+
+#: includes/Superstore.php:243
+msgid "Docs"
+msgstr ""
+
+#: includes/Superstore.php:244
+msgid "Learn the art of multivendor marketplace"
+msgstr ""
+
+#: includes/Superstore.php:310
+#, php-format
+msgid "Superstore does not work without WooCommerce. You can find %s."
+msgstr ""
+
+#: includes/Widgets/BestSellingProducts.php:120
+msgid "Best Selling Products"
+msgstr ""
+
+#: includes/Widgets/BestSellingProducts.php:127
+#: includes/Widgets/FeaturedProducts.php:127
+#: includes/Widgets/LatestProducts.php:127
+#: includes/Widgets/TopRatedProducts.php:127
+msgid "Title:"
+msgstr ""
+
+#: includes/Widgets/BestSellingProducts.php:131
+#: includes/Widgets/FeaturedProducts.php:131
+#: includes/Widgets/LatestProducts.php:131
+#: includes/Widgets/TopRatedProducts.php:131
+msgid "No of Product:"
+msgstr ""
+
+#: includes/Widgets/BestSellingProducts.php:136
+#: includes/Widgets/FeaturedProducts.php:136
+#: includes/Widgets/LatestProducts.php:136
+#: includes/Widgets/TopRatedProducts.php:136
+msgid "Show Product Rating"
+msgstr ""
+
+#: includes/Widgets/BestSellingProducts.php:140
+#: includes/Widgets/FeaturedProducts.php:140
+#: includes/Widgets/LatestProducts.php:140
+#: includes/Widgets/TopRatedProducts.php:140
+msgid "Hide Out of Stock"
+msgstr ""
+
+#: includes/Widgets/FeaturedProducts.php:120
+msgid "Featured Products"
+msgstr ""
+
+#: includes/Widgets/LatestProducts.php:120
+msgid "Latest Products"
+msgstr ""
+
+#: includes/Widgets/TopRatedProducts.php:120
+msgid "Top Rated Products"
+msgstr ""
+
+#: includes/functions.php:92
+#, php-format
+msgid "Read  %s"
+msgstr ""
+
+#: includes/functions.php:94
+#, php-format
+msgid "Edit  %s"
+msgstr ""
+
+#: includes/functions.php:96
+#, php-format
+msgid "Add  %s"
+msgstr ""
+
+#: includes/functions.php:98
+#, php-format
+msgid "Delete  %s"
+msgstr ""
+
+#: includes/functions.php:100
+#, php-format
+msgid "Manage  %s"
+msgstr ""
+
+#: includes/functions.php:418
+msgid "No order found"
+msgstr ""
+
+#: templates/emails/contact-seller.php:13
+#: templates/emails/plain/contact-seller.php:15
+msgid "Customer details are below - "
+msgstr ""
+
+#: templates/emails/contact-seller.php:16 templates/emails/new-product.php:20
+#: templates/emails/plain/contact-seller.php:19
+#: templates/emails/plain/new-product.php:25
+#: templates/emails/plain/product-published.php:25
+#: templates/emails/product-published.php:20
+#, php-format
+msgid "Name: %s,"
+msgstr ""
+
+#: templates/emails/contact-seller.php:19 templates/emails/new-seller.php:23
+#: templates/emails/plain/contact-seller.php:23
+#: templates/emails/plain/new-seller.php:29
+#, php-format
+msgid "Email: %s,"
+msgstr ""
+
+#: templates/emails/contact-seller.php:22
+#: templates/emails/plain/contact-seller.php:27
+#, php-format
+msgid "Message: %s,"
+msgstr ""
+
+#: templates/emails/contact-seller.php:24 templates/emails/new-payment.php:29
+#: templates/emails/new-product.php:28 templates/emails/new-seller.php:31
+#: templates/emails/product-published.php:28
+#: templates/emails/update-payment.php:34
+#, php-format
+msgid "%s,"
+msgstr ""
+
+#: templates/emails/new-payment.php:13 templates/emails/new-product.php:13
+#: templates/emails/new-seller.php:13 templates/emails/plain/new-payment.php:15
+#: templates/emails/plain/new-product.php:15
+#: templates/emails/plain/new-seller.php:15
+#: templates/emails/plain/product-published.php:15
+#: templates/emails/plain/update-payment.php:15
+#: templates/emails/product-published.php:13
+#: templates/emails/update-payment.php:14
+msgid "Hi there,"
+msgstr ""
+
+#: templates/emails/new-payment.php:15
+#: templates/emails/plain/update-payment.php:26
+#: templates/emails/update-payment.php:26
+msgid "Request details are below - "
+msgstr ""
+
+#: templates/emails/new-payment.php:18 templates/emails/new-seller.php:26
+#: templates/emails/plain/new-payment.php:22
+#: templates/emails/plain/new-seller.php:33
+#, php-format
+msgid "Store name: %s,"
+msgstr ""
+
+#: templates/emails/new-payment.php:21
+#: templates/emails/plain/new-payment.php:29
+#: templates/emails/plain/update-payment.php:30
+#: templates/emails/update-payment.php:29
+#, php-format
+msgid "Amount: %s,"
+msgstr ""
+
+#: templates/emails/new-payment.php:24
+#: templates/emails/plain/new-payment.php:33
+#: templates/emails/plain/update-payment.php:34
+#: templates/emails/update-payment.php:32
+#, php-format
+msgid "Method: %s,"
+msgstr ""
+
+#: templates/emails/new-payment.php:27
+msgid "See requests list"
+msgstr ""
+
+#: templates/emails/new-product.php:15
+#: templates/emails/plain/new-product.php:18
+msgid "A new product has added in your marketplace."
+msgstr ""
+
+#: templates/emails/new-product.php:17
+#: templates/emails/product-published.php:17
+msgid "Product details are below - "
+msgstr ""
+
+#: templates/emails/new-product.php:23
+#: templates/emails/plain/new-product.php:33
+#: templates/emails/plain/product-published.php:29
+#: templates/emails/product-published.php:23
+#, php-format
+msgid "Price: %s,"
+msgstr ""
+
+#: templates/emails/new-product.php:26 templates/emails/new-seller.php:20
+#: templates/emails/plain/new-product.php:37
+#: templates/emails/plain/new-seller.php:25
+#, php-format
+msgid "Seller name: %s,"
+msgstr ""
+
+#: templates/emails/new-seller.php:15 templates/emails/plain/new-seller.php:18
+msgid "A new seller has registered in your marketplace."
+msgstr ""
+
+#: templates/emails/new-seller.php:17 templates/emails/plain/new-seller.php:21
+msgid "Seller details are below - "
+msgstr ""
+
+#: templates/emails/new-seller.php:28
+msgid "Edit or view seller profile"
+msgstr ""
+
+#: templates/emails/plain/new-payment.php:18
+msgid "Request details are below:"
+msgstr ""
+
+#: templates/emails/plain/new-payment.php:25
+#, php-format
+msgid "Store profile url: %s,"
+msgstr ""
+
+#: templates/emails/plain/new-payment.php:37
+#, php-format
+msgid "Requests list: %s,"
+msgstr ""
+
+#: templates/emails/plain/new-product.php:21
+#: templates/emails/plain/product-published.php:21
+msgid "Product details are below:"
+msgstr ""
+
+#: templates/emails/plain/new-product.php:29
+#: templates/emails/plain/product-published.php:33
+#, php-format
+msgid "Product edit url: %s,"
+msgstr ""
+
+#: templates/emails/plain/new-product.php:41
+#, php-format
+msgid "Seller url: %s,"
+msgstr ""
+
+#: templates/emails/plain/new-seller.php:37
+#, php-format
+msgid "Store url: %s,"
+msgstr ""
+
+#: templates/emails/plain/new-seller.php:41
+#, php-format
+msgid "Profile url: %s,"
+msgstr ""
+
+#: templates/emails/plain/product-published.php:18
+#: templates/emails/product-published.php:15
+msgid "Your product is published now."
+msgstr ""
+
+#: templates/emails/plain/update-payment.php:19
+msgid ""
+"Thanks for being with us. The amount will be transferred to your preferred "
+"payment method shortly."
+msgstr ""
+
+#: templates/emails/plain/update-payment.php:22
+msgid "Payment withdraw is cancelled. Please recheck all valid requirements."
+msgstr ""
+
+#: templates/emails/product-published.php:25
+msgid "Edit product"
+msgstr ""
+
+#: templates/emails/update-payment.php:19
+msgid ""
+"Thanks for being with us. The requested amount will be transferred to your "
+"preferred payment method shortly."
+msgstr ""
+
+#: templates/emails/update-payment.php:21
+msgid "Withdraw request is cancelled. Please check all valid requirements."
+msgstr ""
+
+#: templates/global/product-tab.php:61
+msgid "No products found!"
+msgstr ""
+
+#: templates/global/sub-orders.php:11
+msgid "Sub Orders"
+msgstr ""
+
+#: templates/global/sub-orders.php:15
+msgid "Note:"
+msgstr ""
+
+#: templates/global/sub-orders.php:18
+msgid ""
+"The products of this order are from different sellers. Each seller will "
+"manage their orders individually."
+msgstr ""
+
+#: templates/global/sub-orders.php:29
+msgid "Date"
+msgstr ""
+
+#: templates/global/sub-orders.php:65
+msgid "View"
+msgstr ""
+
+#: templates/upgrade-notice.php:11
+msgid "Thank you for using Superstore!"
+msgstr ""
+
+#: templates/upgrade-notice.php:12
+msgid ""
+"Superstore PRO is upcoming with many more exclusive features! Level "
+"upgrading feature (bronze, silver and gold seller) is one of the most "
+"important features in Superstore PRO. "
+msgstr ""
+
+#: templates/upgrade-notice.php:13
+msgid "Get notified"
+msgstr ""
+
+#: templates/upgrade-notice.php:15
+msgid "on launch date and never miss the `First Launch` exclusive offers."
+msgstr ""
+
+#: templates/widgets/product.php:13
+msgid "No products found"
+msgstr ""
